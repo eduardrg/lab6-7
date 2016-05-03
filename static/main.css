@@ -1,5 +1,9 @@
 body {
     font-size: 18pt;
+    background-image: url('static/bg.jpg');
+    background-size: 50%;
+    background-color: lightgrey;
+    background-repeat: repeat;
 }
 
 h1, h3, #results {
@@ -15,10 +19,19 @@ h3 {
 }
 header {
     background-color: #D1B1CB;
+    padding-bottom: 25px;
 }
 .content {
     background-color: #EAFDF8;
     min-height: 100px;
+    width: 940px
+    margin: auto;
+}
+
+.title {
+    padding: 0;
+    background-color: lightblue;
+    color: white;
 }
 .content ul {
     padding-top: 25px;
