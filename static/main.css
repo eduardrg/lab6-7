@@ -1,7 +1,7 @@
 body {
     font-size: 18pt;
     background-image: url('img/bg.jpg');
-    background-size: 25%;
+    background-size: 10%;
     background-color: lightgrey;
     background-repeat: repeat;
     margin: auto;
@@ -10,9 +10,13 @@ body {
 h1, h3, #results {
     margin: 0 0 0 0;
 }
-h1, h3 {
+h1, h3, h4 {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+h4 {
+    padding-left: 10px;
 }
 
 header {
@@ -20,14 +24,14 @@ header {
     background-color: #D1B1CB;
     margin-bottom: 25px;
 }
-.content {
+div.content {
     background-color: #EAFDF8;
     min-height: 100px;
     width: 940px
-    margin: auto;
+    margin: 0 auto 25px auto;
 }
 
-.title {
+div.title {
     padding: 0;
     background-color: lightblue;
     color: white;
