@@ -1,14 +1,13 @@
 body {
     font-size: 18pt;
     background-image: url('img/bg.jpg');
-    background-size: 50%;
+    background-size: 25%;
     background-color: lightgrey;
     background-repeat: repeat;
     margin: auto;
 }
 
 h1, h3, #results {
-    text-align: center;
     margin: 0 0 0 0;
 }
 h1, h3 {
@@ -17,6 +16,7 @@ h1, h3 {
 }
 
 header {
+    text-align: center;
     background-color: #D1B1CB;
     margin-bottom: 25px;
 }
