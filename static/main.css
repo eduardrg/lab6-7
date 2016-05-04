@@ -14,9 +14,12 @@ h1, h3, #results {
     margin: 0 0 0 0;
 }
 
-h1, h3, h4 {
+h1 {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+h1, h3, h4 {
     font-weight: bold;
 }
 
