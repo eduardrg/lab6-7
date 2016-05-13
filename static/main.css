@@ -39,7 +39,6 @@ header {
 div.content {
     background-color: #EAFDF8;
     min-height: 100px;
-    width: 1080px;
     margin: 0 auto 25px auto;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
