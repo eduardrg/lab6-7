@@ -10,11 +10,11 @@ body {
     font-size: 12pt;
 }
 
-h1, h3, {
-    margin: 0 0 0 0 !important;
+header h1, h3 {
+    margin: 0 0 0 0;
 }
 
-h1 {
+header h1 {
     padding-top: 10px;
 }
 
