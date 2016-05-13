@@ -27,7 +27,7 @@ header h4 {
 }
 
 .title h3 {
-    padding: 10px;
+    padding: 0px;
 }
 
 header {
@@ -39,15 +39,17 @@ header {
 div.content {
     background-color: #EAFDF8;
     min-height: 100px;
-    width: 1080px;
+    width: 940px;
     margin: 0 auto 25px auto;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;1080
     border-radius: 6px;
     border-style: none;
-    padding: 20px 10px 20px 10px;
 }
 
+div.content p, div.row {
+    padding: 20px 10px 20px 10px;
+}
 div.title {
     padding: 0;
     background-color: lightblue;
