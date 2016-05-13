@@ -8,41 +8,35 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script>
         <script src="static/main.js"></script>
     </head>
-    <body class="content">
+    <body>
         <header>
             <h1>INFO 340B Webpage</h1>
             <h4>by Eduard Grigoryan</h4>
         </header>
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-12">
-                <div class="content" id="results">
-                    <div class="title">
-                        <h3>Results</h3>
-                    </div>
-                    <p>Hi! This page queries a database with four tables that store fictitious data for a hypothetical PvP game.</p>
-                    <div class="row">
-                        <div class="col-md-3" id="firstQuery">
-                            <!-- replace the content in the p block with your question -->
-                            <p>
-                                Which account does the character with the most kills on the Europe server belong to? Return their username and bio.
-                            </p>
-                        </div>
-                        <div class="col-md-3" id="secondQuery">
-                            <p>
-                                List the names and inventory sizes of the characters with the top 5 largest inventories.
-                            </p>
-                        </div>
-                        <div class="col-md-3" id="thirdQuery">
-                            <p>
-                                List the name, type, and strength of all items that: are of a Healing type with a Strength of 25 or greater; or are of a Weapon type with Strength 50 or greater.
-                            </p>
-                        </div>
-                    </div>
-
+        <div class="content" id="results">
+            <div class="title">
+                <h3>Results</h3>
+            </div>
+            <p>Hi! This page queries a database with four tables that store fictitious data for a hypothetical PvP game.</p>
+            <div class="row">
+                <div class="col-md-4" id="firstQuery">
+                    <!-- replace the content in the p block with your question -->
+                    <p>
+                        Which account does the character with the most kills on the Europe server belong to? Return their username and bio.
+                    </p>
+                </div>
+                <div class="col-md-4" id="secondQuery">
+                    <p>
+                        List the names and inventory sizes of the characters with the top 5 largest inventories.
+                    </p>
+                </div>
+                <div class="col-md-4" id="thirdQuery">
+                    <p>
+                        List the name, type, and strength of all items that: are of a Healing type with a Strength of 25 or greater; or are of a Weapon type with Strength 50 or greater.
+                    </p>
                 </div>
             </div>
-            <div class="col-md-3"></div>
+
         </div>
     </body>
 </html>

@@ -35,11 +35,12 @@ header {
     background-color: #D1B1CB;
     margin: 0 auto 25px auto;
     width: 100%;
+    padding-top:0;
 }
 div.content {
     background-color: #EAFDF8;
     min-height: 100px;
-    margin: 0 auto 25px auto;
+    margin: 0 7% 25px 7%;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -53,7 +54,4 @@ div.title {
     padding: 0;
     background-color: lightblue;
     color: white;
-}
-.content ul {
-    padding-top: 20px;
 }
